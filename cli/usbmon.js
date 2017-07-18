@@ -49,7 +49,7 @@ function monitor() {
 }
 
 function restart() {
-	console.log(`USBMON: Changes detected\n`);
+	console.log(`\nUSBMON: Changes detected\n`);
 	// Send kill signat
 	if (running_process) {
 		running_process.kill('SIGINT');
@@ -57,8 +57,8 @@ function restart() {
 	// Wait 200ms and spawn new process
 	setTimeout(() => {
 		running_process = child_process.spawn(target_process, target_process_args);
-		running_process.stdout.on('data', data => console.log(`   |${String(data).replace(/\n/g, '\n   |')}`));
-		running_process.stderr.on('data', data => console.log(`   |${String(data).replace(/\n/g, '\n   |')}`));
+		running_process.stdout.on('data', data => console.log(`  |${String(data).replace(/\n/g, '\n  |')}`));
+		running_process.stderr.on('data', data => console.log(`  |${String(data).replace(/\n/g, '\n  |')}`));
 	}, 200);
 }
 

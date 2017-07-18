@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/sdesalas/usbmon.git"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "bin": {
     "usbmon": "cli/usbmon.js"
   },
