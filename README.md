@@ -8,7 +8,7 @@ Rerun a CLI process whenever USB devices change
 
 ```sh
 $ npm install usbmon -g
-+ usbmon@1.0.1
++ usbmon@1.0.2
 
 $ usbmon
 
