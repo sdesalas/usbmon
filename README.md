@@ -1,4 +1,4 @@
-# usb-process-monitor
+# usbmon
 
 Monitor USB devices and restart a process when changes detected.
 
