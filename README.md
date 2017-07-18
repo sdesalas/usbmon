@@ -4,11 +4,13 @@ Monitor USB devices and restart a process when changes detected.
 
 ## Usage:
 
-Rerun "node my/target/process.js" whenever USB devices change
+Rerun a CLI process whenever USB devices change
 
 ```sh
+$ npm install usbmon -g
++ usbmon@1.0.1
+
 $ usbmon
-usbmon
 
 Usage: usbmon <command>
 
