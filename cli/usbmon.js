@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 //
 // usbmon.js
 //
