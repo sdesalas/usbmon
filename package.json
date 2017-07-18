@@ -1,6 +1,6 @@
 {
   "name": "usbmon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI monitoring of USB devices. Reruns a process when changes detected.",
   "repository": {
     "type": "git",
