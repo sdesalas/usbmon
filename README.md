@@ -4,7 +4,8 @@ Monitor USB devices and restart a process when changes detected.
 
 ## Usage:
 
+Rerun "node my/target/process.js" whenever USB devices change
+
 ```sh
-// Restart whenever USB devices change
 $ usbmon "node my/target/process.js"
 ```
