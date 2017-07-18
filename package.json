@@ -1,6 +1,6 @@
 {
   "name": "usbmon",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "CLI monitoring of USB devices. Reruns a process when changes detected.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
