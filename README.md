@@ -1,15 +1,18 @@
 # usbmon
 
-Monitor USB devices and restart a process when changes detected.
+CLI monitoring of USB devices. Reruns a process when USB devices updated.
+
+## Installation:
+
+```sh
+$ npm install usbmon -g
+```
 
 ## Usage:
 
 Rerun a CLI process whenever USB devices change
 
 ```sh
-$ npm install usbmon -g
-+ usbmon@1.0.2
-
 $ usbmon
 
 Usage: usbmon <command>
