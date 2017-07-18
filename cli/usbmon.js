@@ -19,7 +19,6 @@ var last;
 
 if (!target_process) {
 
-	console.info('usbmon');
 	console.info('');
 	console.info('Usage: usbmon <command>');
 	console.info('');
