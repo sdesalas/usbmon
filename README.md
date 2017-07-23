@@ -1,3 +1,5 @@
+![usb-connect.jpg](usb-connect.jpg)
+
 # usbmon
 
 CLI monitoring of USB devices. Reruns a process when USB devices updated.
