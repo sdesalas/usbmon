@@ -36,16 +36,16 @@ In Linux/Ubuntu you might need to install it:
 sudo apt-get install build-essential libudev-dev
 ```
 
-Use Cases:
+## Use Cases:
 
-Nodebots:
+[Nodebots](http://nodebots.io/), for example to re-attach a controller after its plugged in.
 
 ```
 usbmon node simplebot/examples/attach-controller.js
 ```
 
-Monitoring and notificaiton of USB Devices
+Big Brother... Monitoring and notification of connected USB devices.
 
 ```
-$ usbmon curl -I http://my.domain.com/notify/usb/change?device=6b2e0a8
+$ usbmon lsusb | curl -d @- http://my.domain.com/notify/usb/change?device=6b2e0a8
 ```
