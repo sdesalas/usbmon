@@ -47,5 +47,5 @@ usbmon node simplebot/examples/attach-controller.js
 Big Brother... Monitoring and notification of connected USB devices.
 
 ```
-$ usbmon notify.lsusb.sh
+$ usbmon ./notify.lsusb.sh
 ```
